@@ -1,0 +1,14 @@
+8.1Triggers
+
+         Create Trigger for Drop-Off Point
+
+            a. Trigger Name: DropOffTrigger
+                Object: Drop-Off Point
+
+             b. Click on Submit
+
+ Description
+ Creating the DropOffTrigger for the Drop-Off Point object allows for automated actions in response to specific events, enhancing workflow efficiency and ensuring data integrity within your Salesforce application.
+
+ Purpose
+ This trigger ensures that the distance between the Drop-Off Point and a related Venue is automatically  calculated and stored in the Distance field whenever a new record is created. This automation enhances data accuracy and reduces manual entry errors
