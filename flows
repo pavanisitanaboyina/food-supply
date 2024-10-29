@@ -1,0 +1,59 @@
+8.2 Flow
+
+     
+Flow Setup Instructions
+Go to Setup
+Type Flow in the Quick Find box and select New Flow.
+
+Select Flow Type
+Choose Screen Flow and click Create.
+
+Add Screen Element
+Click the + icon between start and end, then select Screen Element.
+
+Screen Properties
+Label: Venue Details
+API Name: Venue_Details
+Add Components
+
+Text Component
+
+Label: Venue Name
+API Name: Venue_Name
+Email Component
+
+Label: Email
+API Name: Contact_Email
+Phone Component
+
+Label: Phone
+API Name: Contact_Phone
+Text Component
+
+Label: Venue Location
+API Name: Venue_Location
+Click Done.
+
+Add Create Record Element
+Click the + icon between Venue Details and end, then select Create Record Element.
+
+Properties
+
+Label: Create Venue Record
+API Name: Create_Venue_Record
+How Many Records to Create: One
+How to Set the Record Fields: Use separate resources and literal values
+Object: Venue
+
+Set Field Values
+
+Field: Contact_Email__c → {!Contact_Email.value}
+Field: Contact_Phone__c → {!Contact_Phone.value}
+Field: Name → {!Venue_Name}
+Field: Venue_Location__c → {!Venue_Location}
+Click Save As
+
+Flow Label: Venue Form
+Flow API Name: Venue_Form
+Description
+This flow setup allows users to input and create venue details effectively. It includes components for entering the venue name, email, phone number, and location details. The flow then captures this information and creates a record in the Venue object, facilitating organized data management for event planning or NGO activities.
