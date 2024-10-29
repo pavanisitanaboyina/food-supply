@@ -1,0 +1,22 @@
+Dashboards
+1.In food connect app create a new Dashboards folder
+Folder Label: Custom Dashboards
+Folder Unique Name: Auto Populated 
+
+2.In Custom Dashboards create new Dashboard
+Name: Organization Details
+
+3.In Widget select Chart or Table
+In Select Report: Select venue and Drop Off point Report.
+In Add Component:
+Display As: Select Lightning Table
+
+4.In Widget select Chart or Table
+In Select Report: Select Volunteer Task Report.
+In Add Component:
+Display As: Select Line Chart
+
+5.In Widget select Image. 
+Then save file as
+Name: Task Execution Details
+Click on Select Folder and select Custom Dashboards
