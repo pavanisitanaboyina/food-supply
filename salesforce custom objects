@@ -1,0 +1,154 @@
+6.1Venue
+
+1.Create a object Venue with Plural label name >> Venues
+
+         Enter Record Name Label and Format
+         Record Name >> Venue Name
+         Data Type >> Text
+
+2. Create Fields for venue 
+     a. Field Label: Contact Email
+         Field Name: Contact Email
+
+      b. Field Label: Contact Phone
+          Field Name: Contact Phone
+
+      c. Field Label: Location
+          Decimal Places: 4
+          Field Name: Location
+          Description: Enter the Geolocation of your Venue
+
+       d. Field Label: Venue Location
+           Field Name: Venue_Location
+6.2Drop-Off Point
+
+     Create Fields for Drop-Off Point
+a.	Field Label: Location 2
+               Field Name: gets auto generated
+
+         b. Field Label: distance calculation
+            Field Name: distance_calculation
+            Formula Return Type: Number
+            Formula Option: DISTANCE ( Location_2_c ,  Venuer.Location_c , 'km')
+
+         c. Field Label: State
+            Field Name: State
+
+         d. Field Label: Distance
+            Field Name: Distance
+            Length: 14
+            Decimal Places: 4
+ 
+
+6.3Task
+
+1.Create a object Task with Plural label name>> Tasks
+
+     Enter Record Name Label and Format
+
+      Record Name >> Task Name
+      Data Type >> Text with Plural label name >> Venues
+
+      Enter Record Name Label and Format
+
+      Record Name >> Venue Name
+      Data Type >> Text
+
+2.Create Fields for Task 
+
+   a. Field Label: Task ID
+       Display Format: TASK-{0}
+               Starting Number: 1
+               Field Name: gets auto generated
+
+     b. Field Label: Date
+         Field Name: Date
+
+     c. Field Label: Food Category
+         Field Name: Food Category
+
+      d. Field Label: Number of People Served
+          Field Name: Number_of_People_Served
+
+      e. Field Label: Name of the Person
+          Field Name: Name_of_the_Person
+
+      f. Field Label: Phone
+         Field Name: Phone
+
+       g. Field Label: Rating
+           Field Name: Rating
+
+       h. Field Label: Feedback
+      Field Name: Feedback
+  
+6.4 Volunteer
+
+        1.Create a object Volunteer
+
+           Plural label name>> Volunteers
+
+           Enter Record Name Label and Format
+
+           Record Name >> Volunteer Name
+           Data Type >> Text
+
+       2.Create Fields for Volunteer
+
+a.	Field Label: Volunteer ID
+                  Field Name: gets auto generated
+
+b.	Field Label: Gender
+                    Field Name: Gender
+
+c.	Field Label: Available On
+                    Field Name: Available On
+
+d.	Field Label: Age
+                  Field Name: Age
+
+e.	Field Label: Email
+                  Field Name: Email
+
+f.	Field Label: Contact Number
+                  Field Name: Contact_Number
+
+g.	Field Label: Address
+                  Field Name: Address
+
+h.	Field Label: Date of Birth
+                    Field Name: Date_of_Birth
+
+  
+6.5 Execution Details
+
+   1.Create a object Execution Detail with Plural label name >> Execution Details
+
+      Enter Record Name Label and Format
+
+      Record Name >> Execution Detail Name
+      Data Type >> Text
+
+   2.Create Fields for Task 
+       a. Field Label: Execution ID
+          Field Name: gets auto generated
+
+ 
+
+User Proﬁles and Roles
+
+       User Setup
+       First Name: Iksha Foundation
+         Last Name: Iksha_Foundation
+       Alias: iiksh
+       Email: [Your Email]
+       Username: ikshafoundation@sb.com (use a different username)
+        Nickname: Auto Populated
+        User License: Salesforce Platform
+        Profile: NGOs Profile
+        Active: Check
+        Venue Setup
+        Enter the label name: Venue
+        Plural label name: Venues
+        Record Name: Venue Name
+          Data Type: Text
