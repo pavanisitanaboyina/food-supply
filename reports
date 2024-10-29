@@ -1,0 +1,21 @@
+8.Reports 
+
+Go to setup page >> type Report Types in Quick Find bar   click on Report Types  >>  click on Continue   >>  Click on New Custom Report Type.
+
+In Define the Custom Report Type:
+
+Primary Object: Select Venues
+Report Type Label: Venue with DropOff with Volunteer
+Report Type Name: Venue_with_DropOff_with_Volunteer
+Description: Venue with DropOff with Volunteer
+
+Store in Category: Select Other Reports
+Deployment Status: Deployed
+
+Click on Next
+
+Near Click to relate another Object Select Drop-Off Points.
+And also select "A" records may or may not have related "B" records.
+Now again Near Click to relate another Object Select Volunteers.
+
+Now click on Save.
