@@ -1,0 +1,22 @@
+9.Sharing Settings and Security
+
+Go to setup >> type Sharing Settings in quick find box >> Click on the Sharing Settings.
+
+Scroll down and find Drop-Off point Sharing Rules.
+
+Click on new near Drop-Off point Sharing Rules and Name it as:
+
+Label: Rule 1
+Rule Name: Rule_1
+Select your rule type: Select Based on criteria.
+
+Select which records to be shared:
+
+Field: Operator: Value = Distance: less than: 15
+Select the users to share with: Near Share With
+Public Groups: Iksha
+
+Click on Save.
+
+
+create same for Rule_2 and Rule_3
